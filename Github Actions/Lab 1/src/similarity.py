@@ -48,7 +48,7 @@ def cosine_similarity(a, b):
         raise ValueError("cosine similarity is undefined for a zero vector.")
     dot = sum(x * y for x, y in zip(a, b))
     # Clamp to [-1, 1] to absorb floating-point error.
-    return max(-1.0, min(1.0, dot / (norm_a * norm_b)))
+    return max(-1.0, min(1.0, dot / (norm_a + norm_b)))
 
 
 def euclidean_distance(a, b):
