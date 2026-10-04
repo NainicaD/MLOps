@@ -1,0 +1,13 @@
+{
+  "vocabulary": ["model", "training", "data", "pipeline", "recipe", "flour", "oven"],
+  "documents": {
+    "ml_intro":    [3, 2, 4, 1, 0, 0, 0],
+    "ml_pipeline": [2, 3, 3, 2, 0, 0, 0],
+    "baking":      [0, 0, 1, 0, 4, 3, 2]
+  },
+  "feature_samples": {
+    "training":   [10, 12, 11, 13, 12, 11, 10, 12],
+    "live_ok":    [11, 12, 10, 13, 12, 11, 11, 12],
+    "live_drift": [15, 17, 16, 18, 17, 16, 15, 17]
+  }
+}

@@ -1,0 +1,18 @@
+# Virtual environments
+.venv/
+venv/
+*_env/
+
+# Python cache
+__pycache__/
+*.pyc 
+.pytest_cache/
+
+# Generated test reports
+pytest-report.xml
+
+# OS files
+.DS_Store
+
+#VS Code files
+.vscode/
