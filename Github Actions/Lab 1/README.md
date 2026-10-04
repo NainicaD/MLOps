@@ -1,6 +1,6 @@
 # Lab 1: Similarity Measures with CI
 
-This lab is used to practise setting up GitHub Actions: automated tests that run on
+This lab is used to practice setting up GitHub Actions: automated tests that run on
 GitHub's servers every time code is pushed or a pull request is opened. The code being
 tested is a Python module of similarity and distance measures, with tests written in
 both pytest and unittest.
