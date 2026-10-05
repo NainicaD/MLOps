@@ -1,8 +1,0 @@
-palmerpenguins
-scikit-learn
-pandas
-joblib
-fastapi
-uvicorn
-streamlit
-requests
